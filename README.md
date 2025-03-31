@@ -16,6 +16,7 @@ The menu page displays four service cards,  each representing different categori
 
 3. Contact Page (contact.html)  
 The contact page contains a styled HTML5 form that allows users to input their name, email, subject, and message. The form is arranged using CSS Flexbox, ensuring a well-structured and responsive layout. The form also includes HTML5 validation, requiring users to enter valid input. Additionally, subtle animations are applied, such as a hover effect on the submit button. 
+
 Summary of Features  
 
 This project utilizes a variety of  CSS Selectors, including universal, class, ID, and element selectors, to style different components effectively. The navigation bar and homepage sections use Flexbox, while CSS Grid is implemented for the menu’s service cards to ensure a well-structured layout.
