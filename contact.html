@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Form Section -->
+
+    <section class="contact-form">
+         
+        <h2>Contact Us</h2>
+        <form action="submit-form.php" method="POST" novalidate>
+            <!-- Name Field -->
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name" 
+                   pattern="[A-Za-z\s]+" title="Name should only contain letters and spaces.">
+
+            <!-- Email Field -->
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email"
+                   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address.">
+
+            <!-- Subject Field -->
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required placeholder="Enter the subject"
+                   maxlength="100">
+
+            <!-- Message Field -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Write your message here"
+                      maxlength="500"></textarea>
+
+            <!-- Submit Button -->
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+      <footer>
+        <p>&copy; 2025 The EDENS Restaurant. All Rights Reserved.</p>
+        <p>123 Culinary Blvd, Food City, Country | <a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>
+
+    
