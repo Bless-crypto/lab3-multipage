@@ -1,8 +1,7 @@
 THE EDENS RESTAURANT 
 
 Group Members  
-BLESSINGS CHUULU – 2020778823
-GIFT NGOSA -- 2021485340
+BLESSINGS CHUULU – 2020778823  , GIFT NGOSA - 2021485340
 
  Project Overview  
 The EDENS Restaurant Website is a modern, responsive, and user-friendly  multi-page website designed to showcase a restaurant’s offerings. Built using HTML and CSS, it provides a well-structured layout that ensures seamless navigation and an engaging experience for visitors. The project consists of three main pages: Home, Menu, and Contact, each designed with a combination of CSS Flexbox, Grid, media queries, and animations for enhanced interactivity and responsiveness.
